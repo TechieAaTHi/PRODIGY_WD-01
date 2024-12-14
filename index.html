@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rental Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Bike Rental</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bikes</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Rent Your Bike Today</h2>
+        <p>Explore the city with our best bikes. Convenient and affordable rentals.</p>
+        <button id="rentNowBtn">Rent Now</button>
+    </section>
+
+    <section class="bike-selection">
+        <h3>Choose Your Bike</h3>
+        <div class="bike-cards">
+            <!-- Mountain Bike -->
+            <div class="bike-card">
+                <img src="mountain (3).jpeg" alt="Mountain Bike">
+                <h4>Mountain Bike</h4>
+                <p>Perfect for off-road adventures.</p>
+                <button onclick="rentBike('Mountain Bike')">Rent</button>
+            </div>
+            <!-- Road Bike -->
+            <div class="bike-card">
+                <img src="normal.jpeg" alt="Road Bike">
+                <h4>Road Bike</h4>
+                <p>Great for long-distance rides.</p>
+                <button onclick="rentBike('Road Bike')">Rent</button>
+            </div>
+            <!-- Hybrid Bike -->
+            <div class="bike-card">
+                <img src="electric scooters.jpeg" alt="Hybrid Bike">
+                <h4>Hybrid Bike</h4>
+                <p>Perfect blend of comfort and speed.</p>
+                <button onclick="rentBike('Hybrid Bike')">Rent</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bike Rental Service | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #2980b9;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #bdc3c7;
+}
+
+/* Bike Selection Section Styling */
+.bike-selection {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.bike-selection h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.bike-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bike-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.bike-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.bike-card h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bike-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.bike-card button {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bike-card button:hover {
+    background-color: #3498db;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
